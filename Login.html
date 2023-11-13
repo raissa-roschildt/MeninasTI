@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            background-image:linear-gradient(90deg, rgba(228,213,183,255), rgba(255,228,196,255));
+
+        }
+        div{
+
+            background-color:bisque;
+            position: absolute; 
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            padding:50px;
+            border-radius:30px;
+        }
+        input{
+            padding: 15px;
+            font-size:15px;
+        outline: none;
+        }
+
+        button{
+padding: 15px;
+width:25%;
+font-size:18px;
+        }
+
+        button:hover{
+            background-color: #d1c2a7;
+            color:rgb(218, 169, 95);
+        cursor:pointer;
+
+        }
+        .menu{
+            background-color:rgb(13, 50, 36);
+            width:84%;
+            padding:20px 8%;
+                float:left;}
+                .menu li{
+                    float:left;
+                   }
+                   
+                   .menu li a{
+                       color:azure;
+                       margin-right:30px;
+                       padding:8px;
+                       border-radius:6px;
+                   
+                   }
+                   .menu li a:hover{
+                    color:rgb(255, 255, 255);
+                    background-color: rgb(30, 18, 2);
+                    padding:8px;
+                    border-radius:6px;
+                }
+        
+    </style>
+</head>
+<body align="center">
+    <nav class="menu">
+        <li><a href="indexx.html">Quem Somos</a> </li>
+        
+        <li><a href="livros.html">Livros</a> </li>
+        <li><a href="artigos.html">Artigos</a> </li>
+       </li>
+    </nav>
+    <div>
+        <section>
+            <img src="acervo.png"><BR><BR>
+            <input type="text" placeholder=" Nome do Usuário"><br><br>
+            <input type="password" placeholder=" Senha" ><br><br><br>
+            <button>Login</button> 
+    </section>
+    </div>
+</body>
+</html>
